@@ -38,4 +38,4 @@ jobs:
     uses: actions/checkout@v2
     with:
      name: lede
-     path: lede/bin/targets/*/*/
+     path: lede/bin/targets
