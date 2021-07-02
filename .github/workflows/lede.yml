@@ -25,7 +25,7 @@ jobs:
      wget -O .config https://raw.githubusercontent.com/Au403/lede-actions/main/mine.config
   - name: 下载软件包
     run: |
-     cd lede && make download -j2
+     cd lede && make download -j8
   - name: 编译
     run: |
      cd lede
