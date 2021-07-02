@@ -21,7 +21,8 @@ jobs:
      ./scripts/feeds install -a
   - name: 配置.config
     run: |
-     mv mine.config lede/.config
+     cd lede
+     wget -O .config https://raw.githubusercontent.com/Au403/lede-actions/main/mine.config
   - name: 下载软件包
     run: |
      cd lede && make download -j2
