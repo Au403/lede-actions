@@ -13,7 +13,7 @@ jobs:
     run: |
      cd lede/package
      git clone https://github.com/kenzok8/openwrt-packages
-     git clone small https://github.com/kenzok8/small
+     git clone https://github.com/kenzok8/small
   - name: 安装软件
     run: |
      cd lede
