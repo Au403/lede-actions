@@ -41,7 +41,7 @@ jobs:
      cd lede/bin/targets/*/*
      rm -rf packages
   - name: 上传
-    uses: actions/upload-artifact@v2
+    uses: actions/upload-artifact@v4
     with:
      name: lede
      path: lede/bin/targets
