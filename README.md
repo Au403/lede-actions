@@ -1,3 +1,3 @@
 # lede-actions
 
-测试.
+test
