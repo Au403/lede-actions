@@ -1,3 +1,2 @@
-# lede-actions
-
-test
+# openwrt-actions
+仅个人学习当中
